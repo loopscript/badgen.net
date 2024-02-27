@@ -1,3 +1,77 @@
+###  :file_folder: File Structure
+Add a file structure here with the basic details about files, below is an example.
+
+```
+.
+├── assets
+│   ├── css
+│   │   ├── index-ui.css
+│   │   └── rate-ui.css
+│   ├── images
+│   │   ├── icons
+│   │   │   ├── shrink-button.png
+│   │   │   └── umbrella.png
+│   │   ├── logo_144.png
+│   │   └── Untitled-1.psd
+│   └── javascript
+│       ├── index.js
+│       └── rate.js
+├── CNAME
+├── index.html
+├── rate.html
+└── README.md
+```
+
+| No | File Name | Details 
+|----|------------|-------|
+| 1  | index | Entry point
+
+
+### :cactus: Branches
+
+ I use an agile continuous integration with iterations methodology, so the version is frequently updated and development is really fast.
+
+1. **`alpha`** is the development alpha `stage` branch.
+
+2. **`beta`** is the development beta `stage` branch.
+
+3. **`main`** is the production `release` branch.
+
+4. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
+
+**Steps to work with feature branch**
+
+1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
+2. Once you are done with your changes, you can raise PR.
+
+**Steps to create a pull request**
+
+1. Make a PR to `stage` branch.
+2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
+3. It must pass all continuous integration checks and get positive reviews.
+
+After this, changes will be merged.
+
+
+### Workflow Logic
+![Alt text](https://drive.google.com/uc?id=1-TeSWsoJ4d0vOIGW0COqcqE5HCCeBauJ "Workflow_Logic.png")
+
+Hypothetically, if *generic_blue_Module 1* = `Dev` & *generic_yellow_Module 2* = `Design` then highlevel_workflow_logic = `workflow_logic.png`
+
+
+#### **Strict Guideline:**
+: If *Key Term* or *Variable* within `nodes` or `hubs` gets updated/renamed (i.e `project_alias`, `entrypoint`s, `endpoint`s), **the** previous *value* needs to be present in root documentation but as ~~Strikethrough~~.
+  : The logic to define a *Key Term* or *Variable* is by **you** as an `ideation`.
+
+
+#### **Guidelines:**
+: This is one definition of guidelines.
+: This is another definition of guidelines.
+
+---
+
+# Original README.md :
+
 <p align="center">
     <img height="60px" width="60px" src="https://badgen.net/statics/badgen-logo.svg" />
     <h1 align="center">Badgen Service</h1>
